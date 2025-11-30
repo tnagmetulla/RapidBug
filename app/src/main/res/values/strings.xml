@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">RapidBug</string>
+
+    <!-- Main Activity -->
+    <string name="title_settings">Настройки - RapidBug</string>
+
+    <!-- Share Receiver Activity -->
+    <string name="title_share">RapidBug - Поделиться</string>
+    <string name="label_select_action">Выберите действие: %s</string>
+    <string name="label_supported_formats">Поддерживаемые форматы: png, jpg, jpeg, gif, txt, mp4 (макс. 100MB)</string>
+    <string name="label_app_not_configured">Приложение не настроено. Пожалуйста, настройте его в главном приложении.</string>
+    <string name="label_file_not_found">Файл не найден.</string>
+    <string name="button_close">Закрыть</string>
+    <string name="button_create_bug">Создать новый баг</string>
+    <string name="button_add_attachment">Добавить к существующему багу</string>
+    <string name="message_bug_created">Баг создан: %s</string>
+    <string name="message_bug_created_no_attachment">Баг создан, но вложение не добавлено: %s</string>
+    <string name="message_bug_creation_error">Ошибка создания бага: %s</string>
+    <string name="message_attachment_added">Вложение добавлено к %s</string>
+    <string name="message_attachment_error">Ошибка добавления вложения: %s</string>
+    <string name="screenshot_description">Скриншот: %s</string>
+    <string name="default_filename">screenshot.png</string>
+
+    <!-- Settings Screen -->
+    <string name="welcome_title">Привет, QA 👋</string>
+    <string name="welcome_subtitle">Привет, QA 👋 Настройте приложение, чтобы быстро делиться скриншотами и видео с вашей Jira</string>
+    <string name="section_jira_credentials">Учетные данные Jira</string>
+    <string name="label_credentials">Учетные данные Jira</string>
+    <string name="security_notice">🔒 Безопасность: Ваш API токен не отправляется в третьи сервисы. Он используется только для прямого подключения к вашему Jira. Все данные хранятся локально на устройстве. Исходный код приложения доступен на GitHub: https://github.com/tnagmetulla/RapidBug</string>
+    <string name="security_tooltip">Ваш API токен используется только для подключения к вашему Jira. Не отправляется в другие сервисы. Исходный код: https://github.com/tnagmetulla/RapidBug</string>
+    <string name="label_email">Email</string>
+    <string name="label_api_token">API Token</string>
+    <string name="label_jira_url">Jira URL (например: https://your-domain.atlassian.net)</string>
+    <string name="button_load_projects">Проверить подключение и загрузить проекты</string>
+    <string name="section_projects">Выбор проектов</string>
+    <string name="label_select_projects">Выберите проекты по умолчанию</string>
+    <string name="label_no_projects">Нет доступных проектов. Настройте приложение в разделе Settings.</string>
+    <string name="hint_load_projects_first">Сначала настройте учетные данные Jira и загрузите проекты выше</string>
+    <string name="section_file_settings">Настройки файлов</string>
+    <string name="label_max_file_size">Максимальный размер файла (МБ)</string>
+    <string name="button_save_settings">Сохранить все настройки</string>
+    <string name="button_clear_settings">Удалить все настройки</string>
+    <string name="message_projects_loaded">Проекты загружены успешно</string>
+    <string name="message_error">Ошибка: %s</string>
+    <string name="message_settings_saved">Настройки сохранены</string>
+    <string name="message_settings_cleared">Все настройки удалены</string>
+    <string name="dialog_clear_title">Удалить все настройки?</string>
+    <string name="dialog_clear_message">Это действие удалит все сохраненные учетные данные и настройки. Вы уверены?</string>
+    <string name="button_delete">Удалить</string>
+
+    <!-- Create Bug Dialog -->
+    <string name="title_create_bug">Создать новый баг</string>
+    <string name="label_select_project">Выберите проект:</string>
+    <string name="label_bug_title">Название бага</string>
+    <string name="button_create">Создать</string>
+    <string name="button_cancel">Отмена</string>
+
+    <!-- Add Attachment Dialog -->
+    <string name="title_add_attachment">Добавить вложение</string>
+    <string name="label_enter_issue_number">Введите номер задачи:</string>
+    <string name="label_issue_number">Номер задачи</string>
+    <string name="placeholder_issue_number">например: 123</string>
+    <string name="button_add">Добавить</string>
+
+    <!-- File Validation Messages -->
+    <string name="error_file_too_large" formatted="false">Файл слишком большой: %dMB. Максимально допустимый размер: %dMB</string>
+    <string name="error_unsupported_format">Неподдерживаемый формат файла. Поддерживаемые: %s</string>
+</resources>
