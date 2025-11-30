@@ -191,7 +191,6 @@ cd RapidBug
 - URL формата `https://company.atlassian.net` (без слэша в конце)
 - Интернет соединение работает
 
-Подробнее см. [FAQ](./FAQ.md).
 
 ## Лицензия
 
@@ -223,8 +222,6 @@ copies or substantial portions of the Software.
 4. Отправьте ветку на GitHub (`git push origin feature/AmazingFeature`)
 5. Создайте Pull Request
 
-Подробнее см. [CONTRIBUTING.md](./CONTRIBUTING.md) (в планах).
-
 ## Roadmap
 
 ### Версия 1.1.0
@@ -233,24 +230,16 @@ copies or substantial portions of the Software.
 - [ ] Редактирование описания перед созданием
 - [ ] Добавление меток и ассигнований
 
-### Версия 1.2.0
-- [ ] Интеграция с GitHub Issues
-- [ ] Интеграция с Gitlab
-- [ ] Оффлайн режим для черновиков
-
 ### Версия 2.0.0
 - [ ] Полная переработка UI
 - [ ] Встроенный редактор изображений
 - [ ] Синхронизация настроек в облаке
 
-Полный roadmap см. [CHANGELOG.md](./CHANGELOG.md).
-
 ## Контакты и поддержка
 
 - 🐛 Найдена ошибка? Создайте [GitHub Issue](https://github.com/tnagmetulla/RapidBug/issues)
 - 💡 Есть идея? Создайте [Feature Request](https://github.com/tnagmetulla/RapidBug/issues)
-- 📧 Email: your-email@example.com (добавить когда будет реально)
-- 🐦 Twitter: [@yourhandle](https://twitter.com) (добавить когда будет реально)
+- 📧 Email: e.nagmetulla@gmail.com
 
 ## Благодарности
 
@@ -262,7 +251,7 @@ copies or substantial portions of the Software.
 
 ## Автор
 
-Создано [Темирланом Нагметуллой](https://github.com/tnagmetulla)
+Создано [TNAGMETULLA](https://github.com/tnagmetulla)
 
 ---
 
